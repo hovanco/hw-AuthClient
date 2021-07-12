@@ -1,0 +1,106 @@
+.inner-auth {
+    max-width: 892px;
+    width: 100%;
+    margin: auto;
+
+    &-wrap {
+        background: #fff;
+        min-height: 613px;
+        border-radius: 2px;
+        overflow: hidden;
+    }
+
+    &-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 297px;
+
+        background-color: #1c2b36;
+        color: #ffffff;
+
+        text-align: center;
+
+        > div {
+            max-width: 250px;
+        }
+
+        .auth-content {
+            &-title {
+                font-size: 26px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+
+            &-des {
+                line-height: 1.79;
+                letter-spacing: 0.22px;
+                text-align: center;
+                color: #ffffff;
+                font-size: 14px;
+                margin: 30px 0;
+            }
+
+            &-button {
+                background-color: #1c2b36;
+                border: 1px solid #ffffff;
+                color: #ffffff;
+                width: 158px;
+                height: 45px;
+                font-weight: 700;
+                font-size: 16px;
+                transition: all 0.15s ease-in-out;
+
+                &:hover {
+                    background: #fff;
+                    color: #1c2b36;
+                }
+            }
+        }
+    }
+
+    &-form {
+        display: flex;
+        align-items: center;
+        flex: 1;
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        > div {
+            width: 100%;
+        }
+    }
+
+    .form-content {
+        max-width: 354px;
+        margin: 25px auto 0;
+
+        &-title {
+            font-size: 16px;
+            color: #707070;
+        }
+    }
+}
+
+.ant-form-item-has-error {
+    .input-auth {
+        background-color: #efefef;
+        border: 1px solid #ff4d4f;
+
+        input {
+            background-color: #efefef;
+        }
+    }
+}
+
+.form-button {
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: #4353ff;
+}
